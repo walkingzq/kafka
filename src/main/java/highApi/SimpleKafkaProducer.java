@@ -31,4 +31,5 @@ public class SimpleKafkaProducer {
             producer.send(new ProducerRecord<String, String>(topic, value, value));
         }
     }
+
 }
