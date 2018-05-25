@@ -65,4 +65,5 @@ public class SimpleKafkaProducer {
         }
         return sb.toString();
     }
+
 }
